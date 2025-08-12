@@ -271,39 +271,39 @@ function App() {
     <main className="bg-white w-screen cont">
       <div className='w-screen h-screen flex justify-center items-center sundae relative'>
         <img src='/sundae.jpg' className='w-full h-full object-cover' />
-        <h1 className='text-7xl font-bold text-black absolute'><span className='font-bodoni font-thin text-8xl'>S</span>UNDAE</h1>
-        <p className='text-2xl font-light text-black absolute left-8 bottom-8'>Life is <span className='font-bold'>better</span> with layers</p>
+        <h1 className='text-6xl lg:text-7xl font-bold text-black absolute'><span className='font-bodoni font-thin text-7xl lg:text-8xl'>S</span>UNDAE</h1>
+        <p className='text-2xl font-light text-black absolute left-4 bottom-4 lg:left-8 lg:bottom-8'>Life is <span className='font-bold'>better</span> with layers</p>
       </div>
 
       <div className="w-screen h-screen flex justify-center items-center relative banana-bread">
         <img src='/banana-bread.jpg' className='w-full h-full object-cover banana-bread-pic' />
-        <h1 className='text-7xl font-bold absolute z-10 banana-text split-text text-[#8B5A2B]'><span className='font-bodoni font-thin text-8xl'>B</span>ANANA BREAD</h1>
-        <div className='absolute left-8 bottom-8 overflow-hidden h-8 flex items-center'>
-          <p className='text-2xl font-light text-black note translate-y-[120%] text-shadow-black text-shadow-2xs'>When life gives you <span className='font-bold'>bananas</span>, bake <span className='font-bold'>bread</span></p>
+        <h1 className='text-[2.7rem] sm:text-6xl lg:text-7xl font-bold absolute z-10 banana-text split-text text-[#8B5A2B]'><span className='font-bodoni font-thin text-5xl sm:text-7xl lg:text-8xl'>B</span>ANANA BREAD</h1>
+        <div className='absolute bottom-4 sm:left-8 sm:bottom-8 overflow-hidden h-6 sm:h-8 flex items-center'>
+          <p className='text-xl sm:text-2xl font-light text-white lg:text-black note translate-y-[120%] text-shadow-black text-shadow-2xs'>When life gives you <span className='font-bold'>bananas</span>, bake <span className='font-bold'>bread</span></p>
         </div>
       </div>
 
       <div className="w-screen h-screen flex justify-center items-center relative cheesecake">
         <img src='/cheesecake.jpg' className='w-full h-full object-cover cheesecake-pic' />
-        <h1 className='text-7xl font-bold z-10 absolute cheese-text split-text text-[#990F02]'><span className='font-bodoni font-thin text-8xl'>C</span>HEESECAKE</h1>
-        <div className='absolute left-8 bottom-8 overflow-hidden h-8 flex items-center'>
-          <p className='text-2xl font-light text-black note translate-y-[120%]'>Because some indulgences are worth it</p>
+        <h1 className='text-5xl sm:text-6xl lg:text-7xl font-bold z-10 absolute cheese-text split-text text-[#990F02]'><span className='font-bodoni font-thin text-6xl sm:text-7xl lg:text-8xl'>C</span>HEESECAKE</h1>
+        <div className='absolute left-4 bottom-4 sm:left-8 sm:bottom-8 overflow-hidden h-6 sm:h-8 flex items-center'>
+          <p className='text-xl sm:text-2xl sm:font-light text-black note translate-y-[120%]'>Because some indulgences are worth it</p>
         </div>
       </div>
 
       <div className="w-screen h-screen flex justify-center items-center relative ice-cream">
         <img src='/ice-cream.jpg' className='w-full h-full object-cover ice-cream-pic' />
-        <h1 className='text-7xl font-bold z-10 absolute ice-text split-text text-[#7B3F00]'><span className='font-bodoni font-thin text-8xl'>I</span>CE CREAM</h1>
-        <div className='absolute left-8 bottom-8 overflow-hidden h-8 flex items-center'>
+        <h1 className='text-6xl lg:text-7xl font-bold z-10 absolute ice-text split-text text-[#7B3F00]'><span className='font-bodoni font-thin text-7xl lg:text-8xl'>I</span>CE CREAM</h1>
+        <div className='absolute left-4 bottom-4 sm:left-8 sm:bottom-8 overflow-hidden h-8 flex items-center'>
           <p className='text-2xl font-light text-black note translate-y-[120%]'>Scoop up the good stuff</p>
         </div>
       </div>
 
       <div className="w-screen h-screen flex justify-center items-center relative brownie">
         <img src='/brownies.jpg' className='w-full h-full object-cover brownie-pic' />
-        <h1 className='text-7xl font-bold z-10 absolute brownie-text split-text text-[#5B381C]'><span className='font-bodoni font-thin text-8xl'>B</span>ROWNIE</h1>
-        <div className='absolute left-8 bottom-8 overflow-hidden h-8 flex items-center'>
-          <p className='text-2xl font-light text-black note translate-y-[120%]'>From oven to cloud nine</p>
+        <h1 className='text-6xl lg:text-7xl font-bold z-10 absolute brownie-text split-text text-[#5B381C]'><span className='font-bodoni font-thin text-7xl lg:text-8xl'>B</span>ROWNIE</h1>
+        <div className='absolute left-4 bottom-4 sm:left-8 sm:bottom-8 overflow-hidden h-8 flex items-center'>
+          <p className='text-2xl sm:font-light max-sm:mix-blend-multiply text-black note translate-y-[120%]'>From oven to cloud nine</p>
         </div>
       </div>
     </main>
