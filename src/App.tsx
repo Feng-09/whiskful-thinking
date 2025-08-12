@@ -1,6 +1,6 @@
 import './App.css'
-// import { useEffect } from 'react'
-// import Lenis from '@studio-freight/lenis';
+import { useEffect } from 'react'
+import Lenis from '@studio-freight/lenis';
 import gsap from 'gsap';
 import { useGSAP } from '@gsap/react'
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
@@ -9,26 +9,26 @@ import SplitType from 'split-type';
 gsap.registerPlugin(ScrollTrigger);
 
 function App() {
-  // useEffect(() => {
-  //   const lenis = new Lenis({
-  //     duration: window.innerWidth < 768 ? 1.1 : 0.5,
-  //     easing: (t) => 1 - Math.pow(1 - t, 3),
-  //   })
+  useEffect(() => {
+    const lenis = new Lenis({
+      duration: window.innerWidth < 768 ? 1.1 : 0.5,
+      easing: (t) => 1 - Math.pow(1 - t, 3),
+    })
 
-  //   const raf = (time: number) => {
-  //     lenis.raf(time)
-  //     requestAnimationFrame(raf)
-  //   }
+    const raf = (time: number) => {
+      lenis.raf(time)
+      requestAnimationFrame(raf)
+    }
 
-  //   requestAnimationFrame(raf)
+    requestAnimationFrame(raf)
 
-  //   // Sync ScrollTrigger with Lenis
-  //   lenis.on('scroll', ScrollTrigger.update)
+    // Sync ScrollTrigger with Lenis
+    lenis.on('scroll', ScrollTrigger.update)
 
-  //   return () => {
-  //     lenis.destroy() // cleanup
-  //   }
-  // }, [])
+    return () => {
+      lenis.destroy() // cleanup
+    }
+  }, [])
 
   useGSAP(() => {
     const scrollTl = gsap.timeline({ paused: true });
