@@ -29,6 +29,9 @@ body {
   overscroll-behavior: none;
 }
 
+body::-webkit-scrollbar {
+  display: none;
+}
 /* .letter {
   position: relative;
   display: inline-block;
