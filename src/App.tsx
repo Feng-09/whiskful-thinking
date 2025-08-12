@@ -13,6 +13,8 @@ function App() {
     const lenis = new Lenis({
       duration: 0.5,
       easing: (t) => 1 - Math.pow(1 - t, 3),
+      wheelMultiplier: 0.8,
+      touchMultiplier: 1.0,
     })
 
     const raf = (time: number) => {

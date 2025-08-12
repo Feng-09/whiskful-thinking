@@ -22,7 +22,7 @@
 
 html, body {
   height: auto;
-  overflow: hidden; /* Lenis will handle scroll */
+  overflow: auto; /* Lenis will handle scroll */
 }
 
 body {
