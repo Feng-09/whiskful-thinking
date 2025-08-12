@@ -11,7 +11,7 @@ gsap.registerPlugin(ScrollTrigger);
 function App() {
   useEffect(() => {
     const lenis = new Lenis({
-      duration: 0.5,
+      duration: window.innerWidth < 768 ? 1.1 : 0.5,
       easing: (t) => 1 - Math.pow(1 - t, 3),
     })
 
